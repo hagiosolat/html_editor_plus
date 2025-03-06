@@ -2,21 +2,20 @@ import 'dart:async';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:html_editor_plus_package/html_editor_plus_package.dart';
-import 'package:html_editor_plus_package/src/feature/Presentation/controller/quill_controller.dart';
 import 'package:html_editor_plus_package/src/feature/Presentation/view/widgets/mobile_youtube_video.dart';
 import 'package:html_editor_plus_package/src/feature/Presentation/view/widgets/progress_bar.dart';
 import 'package:html_editor_plus_package/src/feature/Presentation/view/widgets/show_web_video.dart';
 
-class MyApp extends StatefulWidget {
-  const MyApp({required this.htmlContent, super.key});
+class EditorScreen extends StatefulWidget {
+  const EditorScreen({required this.htmlContent, super.key});
 
   final String htmlContent;
 
   @override
-  State<MyApp> createState() => _MyAppState();
+  State<EditorScreen> createState() => _MyAppState();
 }
 
-class _MyAppState extends State<MyApp> {
+class _MyAppState extends State<EditorScreen> {
   ///[controller] create a QuillEditorController to access the editor methods
   ///late QuillEditorController controller;
 
@@ -272,10 +271,6 @@ class _MyAppState extends State<MyApp> {
   // when they are called back at the screen
   @override
   void initState() {
-    //controller.setScrollPosition(scrollPosition)
-    print(
-        '##########################################RUNNING THE APPSTAT AND CHECKING THE TIME');
-
     mobileScrollController.addListener(_onScroll);
 
     controller.onTextChanged((text) {

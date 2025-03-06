@@ -27,7 +27,7 @@ class InitialScreen extends ConsumerWidget {
                       onTap: () {
                         Navigator.push(context,
                             MaterialPageRoute(builder: (context) {
-                          return MyApp(
+                          return EditorScreen(
                             htmlContent: htmlContent[index],
                           );
                         }));
@@ -39,7 +39,8 @@ class InitialScreen extends ConsumerWidget {
                         decoration: BoxDecoration(
                             color: Colors.grey.shade200,
                             borderRadius: BorderRadius.circular(9),
-                            border: Border.all(color: Colors.blueGrey.shade200)),
+                            border:
+                                Border.all(color: Colors.blueGrey.shade200)),
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.center,
                           mainAxisAlignment: MainAxisAlignment.center,
