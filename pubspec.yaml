@@ -1,0 +1,37 @@
+name: html_editor_plus
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  html_editor_plus_package:
+    path: assets/html_editor_plus_package
+  youtube_player_flutter: ^9.1.1
+  flutter_riverpod: ^2.6.1
+ 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^5.0.0
+
+
+
+flutter:
+  assets:
+      - assets/html_editor_plus_package/lib/assets/scripts/quill_2.0.0_4_min.js
+      - assets/html_editor_plus_package/lib/assets/scripts/custom_imageBlot.js
+
+
+  uses-material-design: true
