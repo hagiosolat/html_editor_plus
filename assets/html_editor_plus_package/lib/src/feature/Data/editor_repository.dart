@@ -12,10 +12,10 @@ class EditorRepository {
     String response;
     if (kIsWeb) {
       response = await rootBundle.loadString(
-          "html_editor_plus_package/lib/assets/scripts/custom_imageBlot.js");
+          "html_editor_plus_package/lib/assets/scripts/custom_quill.js");
     } else {
       response = await rootBundle.loadString(
-          "assets/html_editor_plus_package/lib/assets/scripts/custom_imageBlot.js");
+          "assets/html_editor_plus_package/lib/assets/scripts/custom_quill.js");
     }
     return response;
   }
