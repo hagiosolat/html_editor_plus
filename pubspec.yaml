@@ -31,7 +31,7 @@ dev_dependencies:
 flutter:
   assets:
       - assets/html_editor_plus_package/lib/assets/scripts/quill_2.0.0_4_min.js
-      - assets/html_editor_plus_package/lib/assets/scripts/custom_imageBlot.js
+      - assets/html_editor_plus_package/lib/assets/scripts/custom_quill.js
 
 
   uses-material-design: true

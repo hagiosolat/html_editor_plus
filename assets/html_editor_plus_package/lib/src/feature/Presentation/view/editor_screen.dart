@@ -12,10 +12,10 @@ class EditorScreen extends StatefulWidget {
   final String htmlContent;
 
   @override
-  State<EditorScreen> createState() => _MyAppState();
+  State<EditorScreen> createState() => _EditorScreenState();
 }
 
-class _MyAppState extends State<EditorScreen> {
+class _EditorScreenState extends State<EditorScreen> {
   ///[controller] create a QuillEditorController to access the editor methods
   ///late QuillEditorController controller;
 

@@ -12,7 +12,7 @@ import 'package:html_editor_plus_package/html_editor_plus_package.dart';
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
-    await tester.pumpWidget(const MyApp(
+    await tester.pumpWidget(const EditorScreen(
       htmlContent: '',
     ));
 

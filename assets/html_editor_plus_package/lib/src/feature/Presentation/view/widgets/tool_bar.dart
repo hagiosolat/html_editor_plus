@@ -1,17 +1,17 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import '../controller/quill_controller.dart';
-import '../../../utils/hex_color.dart';
-import '../../../core/color_picker.dart';
-import '../../../core/edit_table_drop_down.dart';
-import '../../../core/el_tooltip/el_tooltip.dart';
-import '../../../core/image_picker.dart';
-import '../../../core/input_url_widget.dart';
-import '../../../core/table_picker.dart';
-import '../../../core/tool_bar_item.dart';
-import '../../../core/webviewx/src/utils/utils.dart';
+import '../../controller/quill_controller.dart';
+import '../../../../utils/hex_color.dart';
+import '../../../../core/color_picker.dart';
+import '../../../../core/edit_table_drop_down.dart';
+import '../../../../core/el_tooltip/el_tooltip.dart';
+import '../../../../core/image_picker.dart';
+import '../../../../core/input_url_widget.dart';
+import '../../../../core/table_picker.dart';
+import '../../../../core/tool_bar_item.dart';
+import '../../../../core/webviewx/src/utils/utils.dart';
 
-import '../../../constants/image_constants.dart';
+import '../../../../constants/image_constants.dart';
 
 ///[ToolBar] widget to show the quill toolbar
 class ToolBar extends StatefulWidget {
